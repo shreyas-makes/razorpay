@@ -23,7 +23,7 @@ env:
     - RAILS_MASTER_KEY
   clear:
     DB_HOST: 192.168.0.2
-    SOLID_QUEUE_IN_PUMA: true
+    # SOLID_QUEUE_IN_PUMA: true
 
     # Set number of processes dedicated to Solid Queue (default: 1)
     # JOB_CONCURRENCY: 3
